@@ -64,7 +64,7 @@
     &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.SecondPartOfLoop_Addition&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a8654543_002Da983_002D4288_002Dbbd8_002D72ef761e9f0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SecondPartOfLoop_Addition #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a8654543_002Da983_002D4288_002Dbbd8_002D72ef761e9f0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SecondPartOfLoop_Addition #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;ProjectFile&gt;2179D904-B958-4F71-82E4-DBEB9F9DC435/f:UnitTest1.cs&lt;/ProjectFile&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ca28d4f0_002D22c7_002D4478_002D97b4_002D1fd8f5836f03/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -82,7 +82,7 @@
     &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fa9f970c_002Ddc6e_002D4b4b_002Dae84_002D9afa22399261/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Divide1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fa9f970c_002Ddc6e_002D4b4b_002Dae84_002D9afa22399261/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Divide1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.Divide1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;

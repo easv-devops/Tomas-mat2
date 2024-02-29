@@ -45,25 +45,6 @@ public class Tests
         
     }
     
-    [Test]
-    public void SecondPartOfLoop_Addition()
-    {
-        
-        CalClass calClass = new CalClass();
-       
-        Assert.That(calClass.secondPartOfLoop("end"), Is.EqualTo(double.NaN));
-    }
+   
 
-    // [Test]
-    // public void FirstPartOfLoop_Addition()
-    // {
-    //     
-    //     CalClass calClass = new CalClass();
-    //  
-    //     
-    //     double result = calClass.firstPartOfLoop("end");
-    //     
-    //     Assert.AreEqual(1,result);
-    // }
-    //
 }

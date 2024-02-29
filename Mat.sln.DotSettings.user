@@ -1,0 +1,89 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=050f5e27_002D628a_002D4fb7_002D9606_002D859612a6e93a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Divide" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2179D904-B958-4F71-82E4-DBEB9F9DC435::net8.0::Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2f09fdb1_002D3e8f_002D40e3_002D9563_002D086a0bea0170/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=344e32f7_002D17ce_002D47b1_002D9e64_002D15c8531e9b9a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=34bcb2d4_002D9ab6_002D4228_002Da761_002D3a68dc2b7ef3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SecondPartOfLoop_Addition #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.SecondPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=46d9f766_002D018d_002D415f_002Dbc18_002D41eaf815148a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SecondPartOfLoop_Addition" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.SecondPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4cb8c753_002D0d00_002D4bcd_002D9ee5_002D37a871561503/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=57218fcf_002D0d53_002D4dfc_002D921f_002De8493ea6ba77/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e9f7c33_002D50e6_002D446b_002D8a20_002D15c1ea64700f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=603e3108_002D7f66_002D4284_002Dbd87_002D1fa4b2b12253/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=63146369_002D34d2_002D4b57_002D9a68_002D4559cf305396/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from UnitTest1.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2179D904-B958-4F71-82E4-DBEB9F9DC435::net8.0::Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=771f2da2_002Db1b8_002D489e_002Db77f_002D85bff100369c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SecondPartOfLoop_Addition #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.SecondPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8bf7316c_002D8532_002D4137_002D9d1d_002Da420df731458/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Sub" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.Sub&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8e1f2fd8_002D665b_002D470e_002Da0f6_002Dac1754c1c6ce/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SecondPartOfLoop_Addition #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.SecondPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a8654543_002Da983_002D4288_002Dbbd8_002D72ef761e9f0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SecondPartOfLoop_Addition #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;ProjectFile&gt;2179D904-B958-4F71-82E4-DBEB9F9DC435/f:UnitTest1.cs&lt;/ProjectFile&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ca28d4f0_002D22c7_002D4478_002D97b4_002D1fd8f5836f03/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d61d2670_002D675c_002D42a0_002D830b_002D4e0d30dc28f3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e7de4f51_002D4110_002D474b_002Da4ea_002Da4f044b57ee1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fa9f970c_002Ddc6e_002D4b4b_002Dae84_002D9afa22399261/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Divide1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.Divide1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

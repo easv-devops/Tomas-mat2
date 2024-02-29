@@ -14,7 +14,7 @@ steps:
           from_secret: pgconn
     commands:
       - dotnet sonarscanner begin 
-        /k:"$SonarQubeKey"
+        /k:"SONARKEY"
         /d:sonar.host.url="http://sonar.setgo.dk:9000"  
         /d:sonar.token="$SONARSECRET"
         /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml

@@ -110,12 +110,12 @@ public class CalClass()
     				break;
     		}
     
-		    // using (var conn = Helper.DataSource.OpenConnection())
-		    // {
-			   //  conn.QueryFirst<string>("INSERT INTO calculation (val1, val2, val3, operator) VALUES (@val1, @val2, @val3, @operator) RETURNING *;",
-			   //               new { val1 = val1, val2 = val2, val3 = val3, @operator = caltype });
-		    // }
-		    //
+		    using (var conn = Helper.DataSource.OpenConnection())
+		    {
+			    conn.QueryFirst<string>("INSERT INTO calculation (val1, val2, val3, operator) VALUES (@val1, @val2, @val3, @operator) RETURNING *;",
+			                 new { val1 = val1, val2 = val2, val3 = val3, @operator = caltype });
+		    }
+		    
 		    
 		    
     		Console.WriteLine(val1);

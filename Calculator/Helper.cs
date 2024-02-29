@@ -8,7 +8,7 @@ public static class Helper
 
     static Helper()
     {
-        var rawConnectionString = Environment.GetEnvironmentVariable("pgconn");
+        var rawConnectionString = "postgres://tnvhfwvw:Y8fTqldMOZ7usKoMSo71-a_1RlwYhpFo@abul.db.elephantsql.com/tnvhfwvw";
         
         try
         {

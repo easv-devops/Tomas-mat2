@@ -90,7 +90,6 @@ public class Test2
             CalClass calClass = new CalClass();
             calClass.number=false;
             calClass.running = false;
-            calClass.running = false;
             calClass.notTestMode = false;
             
             calClass.Loop();
@@ -103,4 +102,80 @@ public class Test2
         }
         
     }
-  }
+    
+    [Test]
+    public void switchTest()
+    {
+        CalClass calClass = new CalClass();
+        calClass.val1=12.3;
+        calClass.val2=14.3;
+        calClass.notTestMode = false;
+        
+        calClass.secondPartOfLoop("+");
+        
+        Assert.AreEqual(26.6, calClass.val1);
+        
+        }
+     
+    [Test]
+    public void switchTest1()
+    {
+        CalClass calClass = new CalClass();
+        calClass.val1=8;
+        calClass.val2=5;
+        calClass.notTestMode = false;
+        
+        calClass.secondPartOfLoop("-");
+        
+        Assert.AreEqual(3, calClass.val1);
+        
+    }
+    
+        
+    [Test]
+    public void switchTest2()
+    {
+        CalClass calClass = new CalClass();
+        calClass.val1=8;
+        calClass.val2=5;
+        calClass.notTestMode = false;
+        
+        calClass.secondPartOfLoop("*");
+        
+        Assert.AreEqual(40, calClass.val1);
+        
+    }
+    
+    [Test]
+    public void switchTest3()
+    {
+        CalClass calClass = new CalClass();
+        calClass.val1=10;
+        calClass.val2=5;
+        calClass.notTestMode = false;
+        
+        calClass.secondPartOfLoop("/");
+        
+        Assert.AreEqual(2, calClass.val1);
+        
+    }
+    
+       
+    [Test]
+    public void switchTest4()
+    {
+        CalClass calClass = new CalClass();
+        calClass.val1=10;
+        calClass.val2=5;
+        calClass.notTestMode = false;
+        
+        calClass.secondPartOfLoop("end");
+        
+        Assert.AreEqual(Double.NaN, calClass.val1);
+        
+    }
+
+    
+    }
+
+ 

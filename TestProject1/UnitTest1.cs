@@ -37,13 +37,7 @@ public class Tests
         
     }
     
-    // [TestCase]
-    // public void Divide1()
-    // {
-    //     MatTypes division = new MatTypes(new Division());
-    //     Assert.AreEqual(Double.NaN, division.getValue(20, 0));
-    //     
-    // }
+   
     
    
 

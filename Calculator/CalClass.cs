@@ -14,7 +14,7 @@ public class CalClass()
 	public  double val1,val2;
 	 bool running=true;
 	 bool number=false;
-	 string value1,value2;
+	 public string value1,value2;
 
 	 
 	 
@@ -35,7 +35,7 @@ public class CalClass()
     		while (running)
     		{
     			if (number)
-    				firstPartOfLoop(value2);
+    				firstPartOfLoop();
     			else
     			{
 				    Console.WriteLine("-----Calculation type: +-*/ or end------------");
@@ -45,22 +45,19 @@ public class CalClass()
     		}
     	}
     
-    	public double firstPartOfLoop(string value2)
+    	public void firstPartOfLoop()
 	    {
-		    double val4;
-    
+	
     		Console.WriteLine("-----number or end--------------------------");
-		    {
+		    
 			    value2 = Console.ReadLine();
-			    val4 = 0;
-		    }
-		     
-    
+			   
+		    
     		if (value2.ToLower().Contains("end"))
     		{
     			Console.WriteLine("-----Bye---------------------------------");
     			running = false;
-			     val4 = 1;
+			     
 		    }
     		else
     		{
@@ -69,11 +66,11 @@ public class CalClass()
     			
     		}
     
-    		return val4 ; 
+    		
     	}
     
     	
-    	public  double secondPartOfLoop(string caltype)
+    	public  void secondPartOfLoop(string caltype)
 	    {
 		    double val3 = val1;
     		
@@ -120,8 +117,8 @@ public class CalClass()
 		    
     		Console.WriteLine(val1);
     		number = true;
-    		
-    		return val1; //decimaltal returnes til test og ikke andet
+    	
+    	
     	}
 	    
 	    

@@ -11,9 +11,6 @@ public static class Calculator
 	public static void Main(string[] args)
 	{
 		
-		
-		
-		
 		CalClass calClass = new CalClass();
 		calClass.getCalnumbers();
 	

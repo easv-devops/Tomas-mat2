@@ -52,6 +52,28 @@ public class Test2
             
         }
     }
+    [Test]
+    public void firstPartOfLoop_test1()
+    {
+        // Arrange
+       
+        double input1 = 5.3;
+        String input = 5.3+"";
+
+        using (StringReader inputReader = new StringReader(input))
+        {
+            Console.SetIn(inputReader);
+
+            // Act
+            CalClass calClass = new CalClass();
+            calClass.firstPartOfLoop();
+
+            // Assert
+          
+            Assert.AreEqual(input, calClass.value);
+            
+        }
+    }
     
     [Test]
     public void Loop_Test()

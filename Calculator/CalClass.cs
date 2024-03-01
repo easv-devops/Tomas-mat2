@@ -12,9 +12,8 @@ namespace ConsoleApp1;
 public class CalClass()
 {
 	public  double val1,val2;
-	 bool running=true;
-	 bool number=false;
-	 public string value1,value2;
+	 public bool running=true, number=false,notTestMode=true;
+	 public string value;
 
 	 
 	 
@@ -27,33 +26,36 @@ public class CalClass()
     
     		Console.WriteLine("-----Number 2-------------------------------------- ");
     		 val2= double.Parse(Console.ReadLine());
-    
+		     
+		     Loop();	
     	}
     
     	public void Loop()
-    	{
-    		while (running)
-    		{
-    			if (number)
-    				firstPartOfLoop();
-    			else
-    			{
+	    {
+		    do
+		    {
+			    if (number)
+				    firstPartOfLoop();
+			    else
+			    {
 				    Console.WriteLine("-----Calculation type: +-*/ or end------------");
-					secondPartOfLoop(Console.ReadLine());
-    			}
-    		
-    		}
-    	}
+				    value = Console.ReadLine();
+				    if (notTestMode)
+				    secondPartOfLoop(value);
+			    }
+
+		    } while (running);
+	    }
     
     	public void firstPartOfLoop()
 	    {
 	
     		Console.WriteLine("-----number or end--------------------------");
 		    
-			    value2 = Console.ReadLine();
+		    value = Console.ReadLine();
 			   
 		    
-    		if (value2.ToLower().Contains("end"))
+    		if (value.ToLower().Contains("end"))
     		{
     			Console.WriteLine("-----Bye---------------------------------");
     			running = false;
@@ -61,7 +63,7 @@ public class CalClass()
 		    }
     		else
     		{
-    			val2 = double.Parse(value2);
+    			val2 = double.Parse(value);
     			number = false;
     			
     		}
@@ -120,7 +122,6 @@ public class CalClass()
     	
     	
     	}
-	    
-	    
-	    
+
+	   
 }

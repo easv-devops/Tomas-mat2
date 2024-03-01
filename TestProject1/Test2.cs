@@ -33,9 +33,8 @@ public class Test2
     public void firstPartOfLoop_test()
     {
         // Arrange
-        string expectedVal1 = "end";
        
-        string input = $"{expectedVal1}";
+       string input = "end";
 
         using (StringReader inputReader = new StringReader(input))
         {
@@ -46,10 +45,38 @@ public class Test2
             calClass.firstPartOfLoop();
 
             // Assert
-            
-            Assert.AreEqual(expectedVal1, calClass.value2);
+          
+            Assert.AreEqual(input, calClass.value);
             
         }
     }
     
-}
+    [Test]
+    public void Loop_Test()
+    {
+       
+        string input = "+";
+
+        using (StringReader inputReader = new StringReader(input))
+        {
+            Console.SetIn(inputReader);
+            
+            
+            // Act
+            CalClass calClass = new CalClass();
+            calClass.number=false;
+            calClass.running = false;
+            calClass.running = false;
+            calClass.notTestMode = false;
+            
+            calClass.Loop();
+
+            // Assert
+        
+            Assert.AreEqual(input, calClass.value);
+
+            
+        }
+        
+    }
+  }

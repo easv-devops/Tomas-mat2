@@ -16,7 +16,7 @@ public static class Calculator
 		
 		CalClass calClass = new CalClass();
 		calClass.getCalnumbers();
-		calClass.Loop();	
+	
 	}
 
 	

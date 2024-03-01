@@ -19,6 +19,8 @@ public class Test2
 
             // Act
             CalClass calClass = new CalClass();
+            calClass.notTestMode = false;
+
             calClass.getCalnumbers();
 
             // Assert

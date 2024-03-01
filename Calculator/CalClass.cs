@@ -27,6 +27,7 @@ public class CalClass()
     		Console.WriteLine("-----Number 2-------------------------------------- ");
     		 val2= double.Parse(Console.ReadLine());
 		     
+		     if (notTestMode)
 		     Loop();	
     	}
     

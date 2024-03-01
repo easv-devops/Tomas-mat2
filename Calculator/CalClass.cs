@@ -77,7 +77,7 @@ public class CalClass()
 	    {
 		    double val3 = val1;
     		
-		    
+		    //Importens messages
     		switch (caltype.ToLower())
     		{
     			case "+":

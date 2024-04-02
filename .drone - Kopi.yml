@@ -1,0 +1,22 @@
+kind: pipeline
+type: docker
+name: dotnet
+
+steps:
+  - name: code-analysis
+    image: boulundeasv/dotnet-sdk-with-java
+    environment:
+      SONARSECRET:
+        from_secret: SonarQubeSecret
+      SONARSQL:
+        from_secret: pgconn
+    commands:
+      - dotnet sonarscanner begin
+        /k:"easv-devops_Tomas-mat2_AY308iNFEVvRW2O60ERk"
+        /d:sonar.host.url="http://sonar.setgo.dk:9000"
+        /d:sonar.token="$SONARSECRET"
+        /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
+        /d:sonar.qualitygate.wait=true
+      - dotnet build --no-incremental
+      - dotnet-coverage collect "dotnet test" -f xml -o "coverage.xml"
+      - dotnet sonarscanner end /d:sonar.token="$SONARSECRET"

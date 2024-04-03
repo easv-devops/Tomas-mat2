@@ -8,7 +8,7 @@ public class Helper
 
      public Helper()
     {
-        var rawConnectionString = Environment.GetEnvironmentVariable("pgconn");
+        var rawConnectionString = Environment.GetEnvironmentVariable("pgconn"); //Her testes om vi kan få secret til at virke for Drone
         
         try
         {

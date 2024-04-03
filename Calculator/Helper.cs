@@ -1,12 +1,12 @@
 ﻿using Npgsql;
 
-namespace Tests;
 
-public static class Helper
+public class Helper
 {
-    public static readonly NpgsqlDataSource DataSource;
+    public 
+        readonly NpgsqlDataSource DataSource;
 
-    static Helper()
+     public Helper()
     {
         var rawConnectionString = Environment.GetEnvironmentVariable("pgconn");
         

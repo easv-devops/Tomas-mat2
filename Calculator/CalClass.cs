@@ -1,7 +1,7 @@
 ﻿using Dapper;
 using DefaultNamespace.MatCalculations;
 using Npgsql;
-using Tests;
+
 
 namespace ConsoleApp1;
 
@@ -121,7 +121,8 @@ public class CalClass()
 
 	    public void connectToDatabase(double val3, string caltype)
 	    {
-		    using (var conn = Helper.DataSource.OpenConnection())
+		    Helper helper = new Helper();
+		    using (var conn = helper.DataSource.OpenConnection())
 		    {
 			    conn.QueryFirst<string>("INSERT INTO calculation (val1, val2, val3, operator) VALUES (@val1, @val2, @val3, @operator) RETURNING *;",
 				    new { val1 = val1, val2 = val2, val3 = val3, @operator = caltype });

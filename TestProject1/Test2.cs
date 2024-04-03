@@ -85,7 +85,6 @@ public class Test2
         {
             Console.SetIn(inputReader);
             
-            
             // Act
             CalClass calClass = new CalClass();
             calClass.number=false;
@@ -93,6 +92,7 @@ public class Test2
             calClass.notTestMode = false;
             
             calClass.Loop();
+            
 
             // Assert
         

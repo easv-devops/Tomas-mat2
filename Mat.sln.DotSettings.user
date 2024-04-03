@@ -77,12 +77,12 @@
     &lt;TestId&gt;NUnit3x::AE20FA11-E5C4-4F0E-9A4F-5A691BA5B944::net8.0::TestProject1.Tests.FirstPartOfLoop_Addition&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e7de4f51_002D4110_002D474b_002Da4ea_002Da4f044b57ee1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="FirstPartOfLoop_Addition #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e7de4f51_002D4110_002D474b_002Da4ea_002Da4f044b57ee1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FirstPartOfLoop_Addition #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::2179D904-B958-4F71-82E4-DBEB9F9DC435::net8.0::NpgsqlTests.HelperTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fa9f970c_002Ddc6e_002D4b4b_002Dae84_002D9afa22399261/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Divide1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fa9f970c_002Ddc6e_002D4b4b_002Dae84_002D9afa22399261/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Divide1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::2179D904-B958-4F71-82E4-DBEB9F9DC435::net8.0::TestProject1.Test2&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::2179D904-B958-4F71-82E4-DBEB9F9DC435::net8.0::NpgsqlTests.HelperTests.HelperClass_Initializes_Successfully&lt;/TestId&gt;&#xD;
